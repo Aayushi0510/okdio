@@ -1,0 +1,195 @@
+{
+  "Öğretmen Girişi": "Öğretmen Girişi",
+  "Öğrenci Girişi": "Öğrenci Girişi",
+  "Yöneticisi Girişi": "Yönetici Girişi",
+
+  "Kullanıcı adı": "Kullanıcı adı",
+  "Şifre": "Şifre",
+  "Giriş": "Giriş",
+  "Cancel": "İptal Et",
+  "New Password": "Yeni Şifre",
+  "Reset Password": "Şifreyi yenile",
+  "Change Password": "Şifre değiştir",
+
+  "message": {
+    "SOMETHING_WENT_WRONG": "Bir şeyler ters gitti, daha sonra tekrar deneyin!!",
+    "LOGIN_SUCCESS": "Giriş başarılı",
+    "LOGOUT_SUCCESS": "Başarıyla Oturumu Kapatın",
+    "SESSION_EXPIRED": "Oturumun süresi doldu, tekrar giriş yapın",
+    "FIELDS_REQUIRED": "Gerekli alanlar!",
+    "PASSWORD_SHOULD_8_CHAR": "Şifre en az 8 karakter uzunluğunda olmalıdır",
+    "INVALID_EMAIL": "Geçersiz E-posta Kimliği",
+    "NO_RECORDS_FOUND": "İçerik bulunmamaktadır.",
+    "UPDATE_SUCCESS": "Başarıyla güncellendi",
+    "NO_OPTIONS": "Seçenek Yok",
+    "EXPORT_SUCCESS": "Dosyayı başarıyla dışa aktar",
+    "SUBMT_SUCCESS": "Başarıyla gönderildi",
+    "SORRY_PAGE_NOT_FOUND":"Üzgünüz, sayfa bulunamadı!",
+    "SORRY_PAGE_NOT_FOUND_TEXT":"Üzgünüz aradığınız sayfayı bulamadık. Belki URL'yi yanlış yazdınız? Doğru yazıp yazmadığınızı kontrol ettiğinizden emin olun."
+  },
+
+  "Hakkımızda": "Hakkımızda",
+  "about.p1": "Artık her çocuk bir maker ve biz çocukların okuyarak dünyayı değiştirmeyi öğreneceklerinin farkındayız.",
+  "about.p2": "Bu yüzden değiştirecekleri, düzeltecekleri dünyaya hem kurgusal, hem gerçekçi, hem dönemsel, hem de bilgi temelli bir bakış atmalarını, her şeyden önce merak etmelerini destekliyoruz.",
+  "about.p3": "<0>OKUDIO</0> ilkokul çağında öğrenciler için farklı öğrenme maceraları sunuyor.",
+  "about.p4": "Üstelik kaliteli vakit geçirebilecekleri bireysel çalışmalar, sınıf etkinlikleri ve aile oyunları ile birlikte.",
+
+  "ANASAYFA": "ANASAYFA",
+  "SINIFLAR": "SINIFLAR",
+  "GÖREVLER": "GÖREVLER",
+  "DEĞERLENDİRME": "DEĞERLENDİRME",
+  "RAPORLAR": "RAPORLAR",
+  "KİTAPLIK": "KİTAPLIK",
+  "Tum Kitplar": "Tum Kitplar",
+  "Sınıf Düzeyi": "Sınıf Düzeyi",
+  "PYP Temaları": "PYP Temaları",
+  "Genel Temalar": "Genel Temalar",
+  "Kazanımlar": "Kazanımlar",
+  "Seriler": "Seriler",
+  "KAYNAKLAR": "KAYNAKLAR",
+  "AKADEMİ": "AKADEMİ",
+  "BLOG": "BLOG",
+  "YARDIM": "YARDIM",
+  "ÇIKIŞ": "ÇIKIŞ",
+
+  "student": {
+    "card.title": "Genel İlerleme Tablosu"
+  },
+
+  "Search": "Arama",
+  "Rows per page": "Sayfada Göster",
+  "Order": "Sıra",
+  "Sıra": "Sıra",
+  "pagination.results": "{{total}} sonuçtan {{currentPage}} ile {{lastPage}} arası gösteriliyor",
+  "total": "total",
+  "Previous": "Geri",
+  "Next": "İleri",
+  "Excel": "Excel",
+  "Back": "Geri",
+  "Add": "Ekle",
+  "Completed": "Tamamlandı",
+  "Pending": "Beklemede",
+
+  "Student table columns": "Student table columns",
+  "Okul": "Okul",
+  "Sınıf": "Sınıf",
+  "Seviye": "Seviye",
+
+  "Öğrenci": "Öğrenci",
+  "Okunan Kitap Sayısı": "Okunan Kitap Sayısı",
+  "Toplam Okuma Süresi": "Toplam Okuma Süresi",
+  "Toplam Dinleme Süresi": "Toplam Dinleme Süresi",
+  "Tamamlanan Etkinlik Sayısı": "Tamamlanan Etkinlik Sayısı",
+
+  "classes": {
+    "card.title": "Sınıflarım"
+  },
+
+  "classes table columns": "classes table columns",
+  "Öğretmen": "Öğretmen",
+  "Kaydet": "Kaydet",
+
+  "task": {
+    "table.title": "Görev Ver",
+    "table.title2": "Görev Geçmişi"
+  },
+
+  "task give table columns": "task give table columns",
+  "Sınıf Seç": "Sınıf Seç",
+  "Öğrenci Seç": "Öğrenci Seç",
+  "Başlangıç Zamanı": "Başlangıç Zamanı",
+  "Bitiş Zamanı": "Bitiş Zamanı",
+  "Görev Ver": "Görev Ver",
+
+  "task history table columns": "task history table columns",
+  "Tür": "Tür",
+  "Kitap": "Kitap",
+  "Görev Durumu ": "Görev Durumu ",
+
+  "evaluation": {
+    "table.title": "Değerlendirme Bekleyen Görevler",
+    "table.title2": "Değerlendirilen Görevler"
+  },
+
+  "evaluation await table columns": "evaluation await table columns",
+  "Ses Kaydı Yapılan Kitap": "Ses Kaydı Yapılan Kitap",
+  "Dinle": "Dinle",
+  "Geri Bildirim": "Geri Bildirim",
+
+  "evaluation Assessed table columns": "evaluation Assessed table columns",
+
+  "reports": {
+    "card.title": "Genel ilerleme tablosu",
+    "table.title": "Liderlik Tablosu",
+    "table.title2": "Rapor Filtresi"
+  },
+
+  "reports leaderboard table columns": "reports leaderboard table columns",
+  "En çok kitap okuyan öğrenci": "En çok kitap okuyan öğrenci",
+  "En çok kitap dinleyen öğrenci": "En çok kitap dinleyen öğrenci",
+  "En çok kitap okuyan sınıflar": "En çok kitap okuyan sınıflar",
+  "En çok kitap dinleyen sınıflar": "En çok kitap dinleyen sınıflar",
+
+  "reports filter table columns": "reports filter table columns",
+  "Okuma Sayısı": "Okuma Sayısı",
+  "Dinleme Sayısı": "Dinleme Sayısı",
+  "Etkinlik Sayısı": "Etkinlik Sayısı",
+  "Ses Kaydetme Sayısı": "Ses Kaydetme Sayısı",
+  "Başarı Yüzdesi": "Başarı Yüzdesi",
+  "Son Giriş": "Son Giriş",
+  "Giriş Sayısı": "Giriş Sayısı",
+  "Toplam Süre": "Toplam Süre",
+
+  "Dinlenen Kitap Sayısı": "Dinlenen Kitap Sayısı",
+  "Aktivite Süresi": "Aktivite Süresi",
+  "Rapor Görüntüleme": "Rapor Görüntüleme",
+  "Ödevlendirme": "Ödevlendirme",
+  "Kitapları İncele": "Kitapları İncele",
+  "Tamamlanan Aktivite Sayısı": "Tamamlanan Aktivite Sayısı",
+
+  "PROFİL": "PROFİL",
+  "Name": "İsim",
+
+  "Etkinlikler": "Etkinlikler",
+  "Oku": "Oku",
+  "Materyaller ": "Materyaller ",
+  "Kitaba dön": "Kitaba dön",
+
+  
+
+  "Category": "Kategori",
+  "Sub Category": "Alt Kategori",
+
+  "books pages": "books pages",
+  "Kitap Adı": "Kitap Adı",
+  "Sayfa Sayısı": "Sayfa Sayısı",
+  "Konusu": "Konusu",
+  "Hedef Sınıf Düzeyi": "Hedef Sınıf Düzeyi",
+  "İlgili Kazanımlar": "İlgili Kazanımlar",
+  "Grade Name": "Sınıf Adı",
+  "Description": "Tanım",
+  "Earnings": "Kazanım",
+
+  "Series Name": "Seri Adı",
+  "Objective Name": "Hedef Adı",
+  "General Theme Name": "Genel Tema Adı",
+  "PYP Theme Name": "PYP Tema Adı",
+
+  "Create Ticket": "Mesaj Gönder",
+  "Read More": "Daha Fazla Oku",
+  "Question": "Soru",
+  "Answer": "Cevap",
+  "Options": "Seçenekler",
+  "Send": "Gönder",
+  "Title":"Başlık",
+  "Message":"Mesaj",
+  
+  "Change":"Değiştir",
+
+  "Quiz":"Sorular",
+  "Drag Drop":"Sürükle Bırak",
+  "Pairing":"Eşleştirme",
+  "Recording Audio": "Ses Kaydetme",
+  "Puzzle": "Oyun"
+
+}

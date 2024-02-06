@@ -1,0 +1,65 @@
+@import "src/styles/utils/variables";
+
+@mixin closeX() {
+  background-color: $transparent;
+  color: $gray-11;
+  border: none;
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  font-weight: 200;
+  padding: 0 5px;
+
+  &:focus {
+    border-radius: 50px;
+    outline: #888 dotted 1px;
+    padding: 2px;
+    margin-top: -2px;
+    margin-right: -2px;
+  }
+}
+
+// Screen Breakpoints -> Mobile First
+@mixin small-mobile {
+  @media screen and (min-width: $small-mobile) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (min-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin lg-desktop {
+  @media screen and (min-width: $large-desktop) {
+    @content;
+  }
+}
+
+// Custom min/max width media query
+@mixin minMax($min, $max) {
+  @media screen and (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+// Create Styles for Specific CSS Elements
+@mixin module-styles($element, $selector, $pseudo: "", $specificity: "") {
+  #{$specificity} #{$element}[#{$selector}]#{$pseudo} {
+    @content;
+  }
+}

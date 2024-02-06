@@ -1,0 +1,76 @@
+@import "src/styles/utils/variables.scss";
+
+.book-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 25px;
+  color: #fff;
+  font-family: $font-family-2;
+}
+
+.book-listen {
+  background-color: $primary;
+  width: 135px;
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 15px;
+}
+
+.book-events {
+  background-color: $secondary;
+  width: 135px;
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 15px;
+}
+
+.book-cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  &.listen {
+    padding-bottom: 80px;
+  }
+}
+
+.book-coverimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  > p {
+    border: 1px solid #000;
+    border-radius: 15px;
+    font: 28px $font-family-2;
+    line-break: auto;
+    width: 500px;
+    height: 600px;
+    > img {
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+    }
+  }
+}
+
+.arrowicon {
+  color: $secondary;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}

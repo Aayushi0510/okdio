@@ -1,0 +1,134 @@
+.bookActivity {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  color: #000000;
+
+  &-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 5px;
+    width: 100%;
+
+    &-title {
+      font-size: 28px;
+    }
+  }
+
+  &-content {
+    width: 100%;
+
+    &-wrapper {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 100%;
+      gap: 5px;
+
+      .question {
+        display: flex !important;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 5px;
+        text-align: left;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: -0.64px;
+        word-break: break-all;
+        // height: 100%;
+
+        @media (max-width: 991px) {
+          font-size: 20px;
+        }
+
+        // &-number{}
+        &-data {
+          width: 100%;
+
+          &.image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+
+            >img {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .options {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5px;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #f1f1f1;
+        border-radius: 12px;
+        padding: 5px 8px;
+        color: #828282
+      }
+
+      .dragOptions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5px;
+        flex-wrap: nowrap;
+        width: 100%;
+
+        &-item {
+          background: #efefef 0% 0% no-repeat padding-box;
+          border: 1px solid #f1f1f1;
+          border-radius: 12px;
+          padding: 10px 15px;
+          color: #828282;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .matchOptions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        &-column {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+          height: 100%;
+        }
+
+        &-item {
+          background: #efefef 0% 0% no-repeat padding-box;
+          border: 1px solid #f1f1f1;
+          border-radius: 12px;
+          padding: 10px 15px;
+          color: #828282;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

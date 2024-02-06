@@ -1,0 +1,29 @@
+/* google font */
+
+@font-face {
+  font-family: "Cambridge-Round";
+  src: url("/fonts/Cambridge-Round.woff") format("woff"),
+    url("/fonts/Cambridge-Round.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cambridge-Round-Bold";
+  src: url("/fonts/Cambridge-Round-Bold.woff") format("woff"),
+    url("/fonts/Cambridge-Round-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cambridge-Round-SemiBold";
+  src: url("/fonts/Cambridge-Round-SemiBold.woff") format("woff"),
+    url("/fonts/Cambridge-Round-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// body {
+//   font-family: "Poppins", sans-serif !important;
+// }

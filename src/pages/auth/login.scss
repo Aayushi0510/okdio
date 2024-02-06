@@ -1,0 +1,134 @@
+@import "src/styles/utils/variables.scss";
+
+.login-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .login-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 991px) {
+      order: 2;
+    }
+
+    .login-here {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .login-form {
+        // margin-top: 60px;
+
+        // @media (max-width: 991px) {
+        //   margin-top: 20px;
+        // }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        & .login-field {
+          color: $primary;
+          border-radius: 80px;
+          border: 15px solid $secondary;
+          width: 500px;
+          &.error {
+            border: 15px solid $danger;
+          }
+          & > label {
+            font-family: $font-family;
+            font-size: 13.34px;
+            line-height: 16px;
+          }
+
+          & > div {
+            border-radius: 80px;
+            &::before,
+            &::after {
+              border-bottom: none !important;
+            }
+            &:hover:not(.Mui-disabled, .Mui-error):before {
+              border-bottom: none !important;
+            }
+
+            > input {
+              font-size: 35px;
+              font-family: $font-family-bold;
+              border-radius: 80px;
+              color: $primary !important;
+              text-align: center;
+              background-color: #ffffff !important;
+              &::placeholder {
+                color: $primary;
+              }
+              &:focus,
+              :focus-visible {
+                outline: none;
+              }
+
+              @media (max-width: 16rem) {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        & .login-error {
+          margin: 10px 0px 0px 45px;
+          color: $danger;
+          font-size: 20px;
+        }
+      }
+      .login-submit {
+        border-radius: 80px;
+        border: 15px solid $primary;
+        width: 300px;
+        background-color: #ffffff;
+        @media (max-width: 991px) {
+          border: 15px solid #ffffff;
+        }
+        @media (max-width: 768px) {
+          border: 12px solid #ffffff;
+        }
+        &-btn {
+          padding: 10px;
+          font-size: 35px;
+          font-family: $font-family-bold;
+          color: $secondary;
+          width: 100%;
+          border-radius: 80px;
+          // @media (max-width: 991px) {
+          //   padding: 9px;
+          //   font-size: 42px;
+          // }
+          // @media (max-width: 768px) {
+          //   padding: 8px;
+          //   font-size: 22px;
+          // }
+          @media (max-width: 16rem) {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .login-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $primary 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+
+    & .logo-wrapper {
+      @media (max-width: 991px) {
+        padding: 20px;
+      }
+    }
+  }
+}
