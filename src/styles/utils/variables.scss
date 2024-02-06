@@ -1,0 +1,52 @@
+//--- colors
+
+// main colors
+$primary: #183887;
+$secondary: #a9277c;
+$secondary-light: #012b51;
+$background: #e5e5e5;
+$danger: #ff1010;
+$green: #0ead00;
+$gold: #d59007;
+$dark-green: #1c7430;
+$yellow: #ffea00;
+$dark-yellow: #e6a400;
+$lightblue: #00b0ef;
+$blue: #036da7;
+$dark-blue: #024c74;
+$purple: #2b0b3b;
+$orange: #f73e17;
+
+// gray scale
+$white: #fff;
+$gray-1: #f8f8f8;
+$gray-2: #f5f6f7;
+$gray-3: #e1e1e1;
+$gray-4: #d8d8d8;
+$gray-5: #b3b5b7;
+$gray-6: #a1a1a1;
+$gray-7: #979797;
+$gray-8: #87817d;
+$gray-9: #626366;
+$gray-10: #545658;
+$gray-11: #2f3337;
+$gray-12: #2d2926;
+$gray-13: #17181a;
+$black: #000;
+$mat-black: #202020;
+$transparent: transparent;
+$inherit: inherit;
+
+// --- font family
+$font-family: "Cambridge-Round", "Arial", sans-serif;
+$font-family-2: "Roboto", "Arial", sans-serif;
+$font-family-bold: "Cambridge-Round-Bold", "Arial", sans-serif;
+$font-family-semiBold: "Cambridge-Round-SemiBold", "Arial", sans-serif;
+
+// --- Media breakpoints
+$large-desktop: 1500px;
+$desktop: 1200px;
+$tablet: 991px;
+$mobile: 768px;
+$medium-mobile: 376px; //sm
+$small-mobile: 360px; //xs

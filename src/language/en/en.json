@@ -1,0 +1,188 @@
+{
+  "Öğretmen Girişi": "Teacher Login",
+  "Öğrenci Girişi": "Students' Login",
+  "Yöneticisi Girişi": "Admin Login",
+
+  "Kullanıcı adı": "Username",
+  "Şifre": "Password",
+  "Giriş": "Submit",
+  "Cancel": "Cancel",
+  "New Password": "New Password",
+  "Reset Password": "Reset Password",
+  "Change Password": "Change Password",
+
+  "message": {
+    "SOMETHING_WENT_WRONG": "Something went wrong, try again later !!",
+    "LOGIN_SUCCESS": "Login Successfully",
+    "LOGOUT_SUCCESS": "Logout Successfully",
+    "SESSION_EXPIRED": "Session expired, login again !!",
+    "FIELDS_REQUIRED": "Fields required !",
+    "PASSWORD_SHOULD_8_CHAR": "Password should be at least 8 characters long",
+    "INVALID_EMAIL": "Invalid Email Id",
+    "NO_RECORDS_FOUND": "No Records Found!",
+    "UPDATE_SUCCESS": "Updated successfully",
+    "NO_OPTIONS": "No Options",
+    "EXPORT_SUCCESS": "Export file successfully",
+    "SUBMT_SUCCESS": "Submitted successfully",
+    "SORRY_PAGE_NOT_FOUND":"Sorry, the page is not found!",
+    "SORRY_PAGE_NOT_FOUND_TEXT":"Sorry, we couldn’t find the page you’re looking for. Perhaps you’ve mistyped the URL? Be sure to check your spelling."
+  },
+
+  "Hakkımızda": "About Us",
+  "about.p1": "Now every child is a maker and we are aware that children will learn to change the world by reading.",
+  "about.p2": "That's why we support them to take a fictional, realistic, periodic and knowledge-based look at the world they will change and correct, and above all, to be curious.",
+  "about.p3": "OKUDIO offers different learning adventures for primary school students.",
+  "about.p4": "Moreover, with individual studies, class activities and family games where they can spend quality time.",
+
+  "ANASAYFA": "HOME PAGE",
+  "SINIFLAR": "CLASSES",
+  "GÖREVLER": "TASKS",
+  "DEĞERLENDİRME": "EVALUATION",
+  "RAPORLAR": "REPORTS",
+  "KİTAPLIK": "BOOKCASE",
+  "Tum Kitplar": "All Boooks",
+  "Sınıf Düzeyi": "Grade Level",
+  "PYP Temaları": "PYP Themes",
+  "Genel Temalar": "General Themes",
+  "Kazanımlar": "Achievements",
+  "Seriler": "Series",
+  "KAYNAKLAR": "RESOURCES",
+  "AKADEMİ": "ACADEMY",
+  "BLOG": "BLOG",
+  "YARDIM": "HELP",
+  "ÇIKIŞ": "EXIT",
+
+  "Search": "Search",
+  "Rows per page": "Rows per page",
+  "Order": "Order",
+  "pagination.results": "Showing {{currentPage}} to {{lastPage}} of {{total}} results",
+  "total": "total",
+  "Previous": "Previous",
+  "Next": "Next",
+  "Excel": "Excel",
+  "Back": "Back",
+  "Add": "Add",
+  "Completed": "Completed",
+  "Pending": "Pending",
+
+  "student": {
+    "card.title": "General progress chart (All classes monthly)"
+  },
+
+  "Student table columns": "Student table columns",
+  "Sıra": "Order",
+  "Okul": "School",
+  "Sınıf": "Class",
+  "Seviye": "Level",
+  "Öğrenci": "Student",
+  "Okunan Kitap Sayısı": "Number of Books Read",
+  "Toplam Okuma Süresi": "Total Reading Time",
+  "Toplam Dinleme Süresi": "Total Listening Time",
+  "Tamamlanan Etkinlik Sayısı": "Number of Completed Activities",
+
+  "classes": {
+    "card.title": "My classes"
+  },
+
+  "classes table columns": "classes table columns",
+  "Öğretmen": "Teacher",
+  "Kaydet": "Save",
+
+  "Dinlenen Kitap Sayısı": "Number of Books Listened",
+  "Aktivite Süresi": "Activity Duration",
+  "Rapor Görüntüleme": "Report Viewing",
+  "Ödevlendirme": "Assignment",
+  "Kitapları İncele": "Review Books",
+  "Tamamlanan Aktivite Sayısı": "Number of Activities Completed",
+
+  "Etkinlikler": "Events",
+  "Dinle": "Listen",
+  "Oku": "Read",
+  "Görev Ver": "Give a task",
+  "Materyaller ": "Materials",
+  "Kitaba dön": "back to book",
+
+ 
+
+  "Category": "Category",
+  "Sub Category": "Sub Category",
+
+  "books pages": "books pages",
+  "Kitap Adı": "Book Name",
+  "Sayfa Sayısı": "Page Number",
+  "Konusu": "Subject",
+  "Hedef Sınıf Düzeyi": "Target Grade Level",
+  "İlgili Kazanımlar": "Related Acquisitions",
+  "Grade Name": "Grade Name",
+  "Description": "Description",
+  "Earnings": "Earnings",
+
+  "Series Name": "Series Name",
+  "Objective Name": "Objective Name",
+  "General Theme Name": "General Theme Name",
+  "PYP Theme Name": "PYP Theme Name",
+
+  "task": {
+    "table.title": "Give a task",
+    "table.title2": "Task history"
+  },
+
+  "task give table columns": "task give table columns",
+  "Sınıf Seç": "Select Class",
+  "Öğrenci Seç": "Select Student",
+  "Başlangıç Zamanı": "Start Time",
+  "Bitiş Zamanı": "End time",
+
+  "task history table columns": "task history table columns",
+  "Tür": "Type",
+  "Kitap": "Book",
+  "Görev Durumu ": "Task status",
+
+  "evaluation": {
+    "table.title": "Tasks awaiting evaluation",
+    "table.title2": "Assessed tasks"
+  },
+
+  "evaluation await table columns": "evaluation await table columns",
+  "Ses Kaydı Yapılan Kitap": "Audio Recorded Book",
+  "Geri Bildirim": "Feedback",
+
+  "reports": {
+    "card.title": "General Progress Chart",
+    "table.title": "Leaderboard",
+    "table.title2": "Report Filter"
+  },
+
+  "reports leaderboard table columns": "reports leaderboard table columns",
+  "En çok kitap okuyan öğrenci": "Student who reads the most books",
+  "En çok kitap dinleyen öğrenci": "The student who listened to the most books",
+  "En çok kitap okuyan sınıflar": "Classes that read the most books",
+  "En çok kitap dinleyen sınıflar": "Classes that listen to the most books",
+
+  "reports filter table columns": "reports filter table columns",
+  "Okuma Sayısı": "Number of Readings",
+  "Dinleme Sayısı": "Listening Number",
+  "Etkinlik Sayısı": "Number of Events",
+  "Ses Kaydetme Sayısı": "Number of Voice Recordings",
+  "Başarı Yüzdesi": "Success Percentage",
+  "Son Giriş": "Last Login",
+  "Giriş Sayısı": "Number of Entries",
+  "Toplam Süre": "The total time",
+
+  "Create Ticket": "Create Ticket",
+  "Read More": "Read More",
+  "Question": "Question",
+  "Answer": "Answer",
+  "Options": "Options",
+  "Send": "Gönder",
+  "Title":"Title",
+  "Message":"Message",
+
+  "Change":"Değiştir",
+
+  "Quiz":"Quiz",
+  "Drag Drop":"Drag Drop",
+  "Pairing":"Pairing",
+  "Recording Audio": "Recording Audio",
+  "Puzzle": "Puzzle"
+}

@@ -1,0 +1,107 @@
+@import "src/styles/utils/variables.scss";
+
+header {
+  z-index: 999 !important;
+  .header {
+    &-container {
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100% !important;
+    }
+    &-top {
+      width: 100%;
+      padding: 40px;
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      @media (max-width: 991px) {
+        padding: 40px;
+      }
+      @media (max-width: 550px) {
+        // flex-direction: column;
+        gap: 5px;
+        // justify-content: center;
+        padding: 10px;
+      }
+      &-logo {
+        width: 200px;
+        @media (max-width: 550px) {
+          padding-bottom: 10px;
+          width: 100px;
+        }
+      }
+      &-icons {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 20px;
+        color: #000000;
+        & .icon {
+          color: #aaaaaa;
+          cursor: pointer;
+          > svg {
+            @media (max-width: 500px) {
+              font-size: 15px;
+            }
+          }
+        }
+        & .avatar {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+         &-detail{
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+         }
+         &-name {
+          color: #6a707e;
+          font-size: 16px;
+          font-family: "Roboto", Arial, sans-serif;
+          // @media (max-width : 500px) {
+          //   font-size: 10px;
+          // }
+        }
+        &-email {
+          color: #6a707e;
+          font-size: 15px;
+          font-family: "Roboto", Arial, sans-serif;
+          font-weight: 500;
+          // @media (max-width : 500px) {
+          //   font-size: 10px;
+          // }
+        }
+        }
+      }
+    }
+    &-nav {
+      background-color: $primary;
+      color: #ffffff;
+      width: 100%;
+      padding: 0px 40px;
+      @media (max-width: 550px) {
+        padding: 0px;
+      }
+    }
+  }
+}
+
+.notification-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #7f63f4;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: inline-block;
+  position: relative;
+  top: -16px;
+  left: -8px;
+  &.bell {
+    left: -12px;
+  }
+}

@@ -1,0 +1,131 @@
+@import "./utils/variables.scss";
+
+#rdSelectFC {
+  > div {
+    margin-top: 24px;
+    &.selection{
+      > div{
+       width: 100%;
+       display: flex;
+   align-items: center;
+   min-height: 40px;
+   padding-left: 10px;
+      }
+     }
+    > div {
+      border-radius: 4px;
+      position: relative;
+      background-color: #ffffff;
+      border: 1px solid #d0dae9;
+      font-size: 14px;
+      font-family: "Inter";
+      font-weight: 500;
+      color: #011632;
+      line-height: 15px;
+      width: auto;
+      min-height: 41px;
+      padding: 0;
+     
+      &.rd-sidebar-select {
+        background-color: #f3f3f3;
+        border: none;
+        & .react-dropdown-select-dropdown {
+          border: none;
+          box-shadow: none;
+          top: 41px;
+          left: 0px;
+        }
+      }
+      & .react-dropdown-select-content {
+        > span {
+          font-family: $font-family-2;
+          font-weight: 500;
+          font-size: 14px;
+          background-color: $primary;
+        }
+      }
+
+      & .react-dropdown-select-dropdown-handle {
+        display: none;
+      }
+
+      & .react-dropdown-select-dropdown {
+        background-color: #ececec;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+        > span {
+          font-family: $font-family-2;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 15px;
+          letter-spacing: 0.3px;
+          color: #011632;
+          border-bottom: none;
+
+          > span {
+            color: $secondary;
+          }
+        }
+      }
+
+      &:focus,
+      &:focus-within {
+        border-color: $secondary-light;
+        box-shadow: 0px 5px 10px 1px rgba(4, 10, 63, 0.1);
+      }
+    }
+  }
+}
+
+#rdsTimeBox{
+  > div{
+    > div{
+      & .react-dropdown-select-content {
+        > span {
+          font-family: $font-family-2;
+          font-weight: 500;
+          font-size: 14px;
+          background-color: $primary;
+        }       
+      }
+     
+      & .react-dropdown-select-dropdown-handle {
+        display: none;
+      }
+
+      & .react-dropdown-select-dropdown {
+        background-color: #ececec;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+        > span {
+          font-family: $font-family-2;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 15px;
+          letter-spacing: 0.3px;
+          color: #011632;
+          border-bottom: none;
+
+          > span {
+            color: $secondary;
+          }
+        }
+      }
+    }
+
+    & .rdsTimeBoxText{
+      & .react-dropdown-select-content {
+        & .react-dropdown-select-option {
+          & .react-dropdown-select-option-label {
+            max-width: 50px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+        }
+      }       
+    }
+  }
+}
